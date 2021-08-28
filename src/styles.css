@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+h1,h2
+{
+   text-align: center;  
+  text-transform:capitalize;
+}
+img{
+  border: 2px solid darkmagenta;
+  width: 200;
+  height: 200;
+}
+li{
+  font-size: 1.5em;
+  background-color: lightcyan;
+  color:darkblue;
+  text-align: center;
+}

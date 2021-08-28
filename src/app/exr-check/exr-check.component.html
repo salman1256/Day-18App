@@ -1,0 +1,19 @@
+<h1 class="bg-primary text-white text-center">Teams</h1>
+<div class="container">
+<table class="table table-bordered text-white">
+  <tr>
+    <th>Team Id</th>
+    <th>Team Name</th>
+    <th>Team Logo</th>
+    <th>No of WC </th>
+  </tr>
+  <tr *ngFor='let t of teams'>
+    <td>{{t.tid}}</td>
+    <td>{{t.tname}}</td>
+    <td>
+      <img src={{t.tlogo}} width="150" height="150"/>
+    </td>
+    <td>{{t.nwc|wcup}}</td>
+  </tr>
+</table>
+</div>
